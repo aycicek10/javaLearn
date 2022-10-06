@@ -28,7 +28,26 @@ public class Task14 {
 
     toplam = 536.0
     */
+Scanner sc=new Scanner(System.in);
+        System.out.println("mesai başalam saatini yazınız: ");
+        double start=sc.nextDouble();
+        System.out.println("mesai bitiş saatini yazınız: ");
+        double finish=sc.nextDouble();
+        System.out.println("mesai  saat ücretini yazınız: ");
+        double saatUcret=sc.nextDouble();
+        System.out.println("fazla mesai ücret katsayısını yazınız: ");
+        double ucretKatsayı=sc.nextDouble();
 
+        System.out.println(ucretHesapla(9.0, 20.0, 40.0, 1.8));
+        System.out.println(ucretHesapla(start,finish,saatUcret,ucretKatsayı));// dynamic kod
 
+    }// *** main sonu ***
+
+    private static double ucretHesapla(double start, double finish, double saatUcreti, double ucretKatsayı) {
+        double yevmiye1=(17-start)*saatUcreti;
+        double yevmiye2=(finish-17)*saatUcreti*ucretKatsayı;
+        return yevmiye1+yevmiye2;
     }
+
+
 }
