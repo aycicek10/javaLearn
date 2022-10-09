@@ -21,7 +21,7 @@ public class Q08 {
         double fiyat=sc.nextDouble();
         System.out.println("müsteri kartı var mı: ");
         boolean kart=sc.hasNext();
-        //double fatura=0;
+        double fatura=0;
         double ind=(ürün*fiyat)-((ürün*fiyat)*0.20);
 
 
@@ -34,22 +34,22 @@ public class Q08 {
             if(ürün>10){
                 System.out.println("ind = " + ind);
             }
-                //fatura=(ürün*fiyat)*0.8;
-          //  }else fatura=(ürün*fiyat)*0.85;
+                fatura=(ürün*fiyat)*0.8;
+           }else fatura=(ürün*fiyat)*0.85;
             System.out.println(ind);
+
+
+            if(kart==false){
+        if(ürün>10) {
+            fatura=(ürün*fiyat)*0.85;
         }
+        if(ürün<10){
+            fatura=(ürün*fiyat)*0.90;
+            System.out.println("fatura = " + fatura);
+         }
+         else System.out.println("hatalı giriş");
 
-       //else if(kart==false){
-       //    if(ürün>10) {
-       //        fatura=(ürün*fiyat)*0.85;
-       //    }
-       //    if(ürün<10){
-       //        fatura=(ürün*fiyat)*0.90;
-       //        System.out.println("fatura = " + fatura);
-       //    }
-       //    else System.out.println("hatalı giriş");
-
-       //}
+       }
 
 
 

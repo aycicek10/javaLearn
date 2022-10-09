@@ -1,5 +1,9 @@
 package j12_Loops.HW;
 
+import java.util.Scanner;
+
+
+
 public class Odev05 {
 
     /*
@@ -31,9 +35,19 @@ public class Odev05 {
      */
 
     public static void main(String[] args) {
+      //  Scanner sc=new Scanner(System.in);
+      //  System.out.println("enter the num");
+      //  int num=sc.nextInt();
+
+
+
 
 
 
 
     }
-}
+
+
+
+    }
+

@@ -10,5 +10,13 @@ public class Odev01 {
         //Kodu aşağıya yazınız.
 
 
+        for (int i = 0; i <100 ; i++) {
+
+            if(i%2==0){
+                System.out.println(i+ " ");
+            }
+        }
+
+
     }
 }

@@ -8,7 +8,15 @@ public class Odev08 {
         99-98-97-96....
         100 ve 0 dahil değildir.*/
 
+        for (int i = 99; i > 0; i--) {
+
+            if (i % 2 == 1) {
+
+                System.out.println(i + " ");
+
+            }
 
 
+        }
     }
 }
