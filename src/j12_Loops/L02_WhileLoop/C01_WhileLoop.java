@@ -62,7 +62,7 @@ public class C01_WhileLoop {
 
 
         }
-        // task 05 -> girilen sayının faktoriyelini  print eden kod create ediniz
+        // task 06  -> girilen sayının faktoriyelini  print eden kod create ediniz
         int faktoriyel = 1;
 
         while (sayı > 0) {
