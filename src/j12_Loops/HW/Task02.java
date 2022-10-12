@@ -15,9 +15,11 @@ public class Task02 {
         int toplam = 0;
         for (int i = sayı1; i <=sayı2 ; i++) {
 
-           // toplam+=sa
+            toplam+=i;
+            }
 
-        }
+        System.out.println("toplam = " + toplam);
 
     }
-}
+
+    }

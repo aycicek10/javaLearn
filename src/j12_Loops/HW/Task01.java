@@ -8,14 +8,21 @@ public class Task01 {
 Task-> girilen sayıların toplamı 333 gectiğinde girilen sayı adedini ve toplamını prşnt eden code create ediniz.
  */
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("sayı giriniz: ");
-        int sayı = sc.nextInt();
-        int toplam = 0;
-        while (sayı > 0) {
 
+        boolean flag = true;
+        int count = 0;
+        int toplam = 0;
+        while (flag) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("sayı giriniz: ");
+            int sayı = sc.nextInt();
+            count++;
             toplam += sayı;
-            sayı--;
+            if (toplam >= 333) {
+                flag = false;
+            }
+
+            System.out.println("girdiğiniz sayı adedi: " + count + " \ngirdiğiniz sayıların toplamı: " + toplam);
 
         }
     }

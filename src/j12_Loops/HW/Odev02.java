@@ -14,10 +14,10 @@ public class Odev02 {
 int rakam=0;
 		for (int i = 0; i <str.length() ; i++) {
 
-			if (str.equals(str.charAt(i)>=0 && str.charAt(i)<=9)){
+			if (str.charAt(i)>='0' && str.charAt(i)<='9'){
+rakam++;
 
-
-				}System.out.println(i+ "rakam vardır");
+				}System.out.println("Girilen cümlede : "+rakam+" adet rakam vardır. ");
 			}
 		}
 

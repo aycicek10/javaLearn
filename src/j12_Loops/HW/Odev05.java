@@ -35,19 +35,33 @@ public class Odev05 {
      */
 
     public static void main(String[] args) {
-      //  Scanner sc=new Scanner(System.in);
-      //  System.out.println("enter the num");
-      //  int num=sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("sayı giriniz");
+        int sayı = sc.nextInt();
+
+        System.out.println(powerOfThree(sayı));
+
+    }
+
+    private static boolean powerOfThree(int sayı) {
+        boolean ücÜssümü=true;
 
 
 
+        for (int i = 3; i <=sayı; i*=3) {
+                if (sayı%i!=0){
+    ücÜssümü=false;
+
+}
+        }
 
 
-
+        return ücÜssümü;
 
     }
 
 
 
-    }
+
+}
 

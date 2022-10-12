@@ -16,30 +16,24 @@ public class Odev03 {
         Scanner sc = new Scanner(System.in);
         System.out.println("sayı giriniz: ");
         int sayı = sc.nextInt();
-
-
-        getAsalMı(sayı);
-
+        System.out.println(getAsalMı(sayı));
 
     }
 
-    private static void getAsalMı(int sayı) {
+    private static boolean getAsalMı(int sayı) {
 
-
+        boolean asalmı = true;
         for (int i = 2; i < sayı; i++) {
             if (sayı % i == 0) {
+                asalmı=false;
 
-                System.out.println(true);
 
-            } else System.out.println(false);
-
+            }
         }
-
-
+        return asalmı;
     }
+
 }
-
-
 
 
 

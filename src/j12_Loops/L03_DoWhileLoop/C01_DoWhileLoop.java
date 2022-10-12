@@ -11,6 +11,19 @@ public class C01_DoWhileLoop {
 
          */
     public static void main(String[] args) {
+int age =33;
+while (age<33){
+    System.out.println("agam yas" + age + "gayet basarılı  " );
+    age++;
+}
+
+
+do {
+    System.out.println("agam yas" + age + "gayet basarılı  " );
+    age++;
+}while (age<33);
+
+
 
     }
 }
