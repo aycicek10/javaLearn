@@ -9,7 +9,5 @@ public class Task13 {
         do-while lopp
          */
 
-
-
     }
 }

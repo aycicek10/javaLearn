@@ -21,7 +21,7 @@ Array'de primitive datalar veya non-primitive datalarin referanslari store edile
         int Arr[];// declare edilen ama atanmayan int type array
         // tanımlanan array atama yapılmadan kullanılamaz
 
-        String isimArr[]={"muharrem","enise","cebrail", " nazım", " özge"};// hem tanımlama hem atama yapılan String array
+        String isimArr[]={"muharrem","enise","cebrail","nazım","özge"};// hem tanımlama hem atama yapılan String array
 
         int sayıARR[]=new int[5];// java haep memoryde 5 default - 0 olan int array create edildi
                                  //[0,0,0,0,0]
@@ -84,5 +84,17 @@ int koltukSayısı=0;
         }
        // System.out.println(Arrays.toString(yeniArr));
         System.out.println(koltukSayısı);
+
+        // array elemanlarını naturel(k>b:ascending, b>kdescending, alfabetik) sıralama
+        System.out.println("Arrays.toString(isimArr) = " + Arrays.toString(isimArr));//sıralam öncesi
+        Arrays.sort(isimArr);// isimArr elemanları natural sıralama yapıldı
+        System.out.println("Arrays.toString(isimArr) = " + Arrays.toString(isimArr));// sıralama sonrası
+
+        System.out.println("Arrays.toString(sayıARR) = " + Arrays.toString(sayıARR));// sıralama sonrası
+
+        Arrays.sort(sayıARR);//sıralandı k>b
+        System.out.println("Arrays.toString(sayıARR) = " + Arrays.toString(sayıARR));// sıralama sonrası
+
+
     }
 }
