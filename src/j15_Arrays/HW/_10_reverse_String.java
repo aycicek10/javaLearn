@@ -9,6 +9,21 @@ public class _10_reverse_String {
         Stringi tersten yazdırın ve print edin.
         Cevap böyle olmalı :  "dlroW olleH"
          */
+String str[]={"Hello World"};
+
+
+        for (int i =str.length; i >=0 ; i--) {
+            System.out.println("i = " + str[i]);
+        }
+
+
+
+
+
+
+
+
+
 
 
     }
