@@ -17,9 +17,12 @@ public class Task09 {
             System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
 
         }
-        for (int i = 0; i < arr.length ; i++) {
 
-        }
+        for (int i = arr.length-1 ; i >=0 ; i--) {
+
+
+
+        }   System.out.println("arr = " + arr);
 
     }
 }

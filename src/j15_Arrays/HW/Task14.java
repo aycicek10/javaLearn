@@ -15,10 +15,10 @@ public class Task14 {
                     --> Integer.valueOf()
          */
         String str = "ade1r4d3";
-     String s[]= new [str.split("")];
+     String s[]=str.split("");
+        System.out.println("Arrays.toString(s) = " + Arrays.toString(s));
 
-
-
+        //String str=Integer.parseInt(str);
 
 
 

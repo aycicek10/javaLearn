@@ -11,6 +11,42 @@ public class Task06_sayiBulmaca {
         // girilen her tahminde sayiyi buyut veya kucult diye kullaniciya yol gosterin
         // kullanici sayiyi buldugunda kac tahminde sayiyi buldugunu kullaniciya yazdirin
 
+        int deger = (int) (Math.random() * 100);
+
+        Scanner scanner = new Scanner(System.in);
+
+        int count = 0;
+
+
+        int tahmin;
+        do {
+            System.out.println("sayıyı  tahmin ediniz: ");
+            tahmin = scanner.nextInt();
+            if (tahmin > deger) {
+                System.out.println("asağı gidiniz ");
+            } else if (tahmin < deger) {
+                System.out.println("yukarı gidiniz");
+            } else
+                System.out.println("tebrikler bildiniz ***");
+            count++;
+
+
+
+        } while (tahmin != deger);
+        System.out.println("count = " + count);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
