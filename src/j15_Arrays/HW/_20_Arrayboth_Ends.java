@@ -15,5 +15,12 @@ public class _20_Arrayboth_Ends {
     Sonuç bu şekilde olmalıdır. [1, 4]
       */
 
+        int arr[]={1,2,3,4};
+
+        int arr2[]={arr[0],arr.length};
+
+        System.out.println("Arrays.toString(arr2) = " + Arrays.toString(arr2));
+
+
     }
 }

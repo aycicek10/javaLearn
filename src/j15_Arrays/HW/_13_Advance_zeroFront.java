@@ -19,5 +19,13 @@ public class _13_Advance_zeroFront {
        */
 
 
+        int arr[]={1,0,0,1,0};
+
+        Arrays.sort(arr);
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
+        System.out.println("Arrays.toString(arr).replace(\"[\",\"\" ) = " + Arrays.toString(arr).replace("[", "").replace("]", ""));
+
+
+
     }
 }

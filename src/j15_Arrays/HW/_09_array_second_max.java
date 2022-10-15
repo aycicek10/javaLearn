@@ -1,5 +1,7 @@
 package j15_Arrays.odev;
 
+import java.util.Arrays;
+
 public class _09_array_second_max {
 
     public static void main(String[] args) {
@@ -9,14 +11,15 @@ public class _09_array_second_max {
         Arraydaki en büyük 2. elemanı yazdıran bir program yazın.
          */
 int arr[]={15,25,22,18,30};
-int max= arr[0];
-        for (int i = 0; i < arr.length ; i++) {
-            if (max > arr[i]){
+        Arrays.sort(arr);
 
-            }
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
 
-        }
+        System.out.println(arr[arr.length - 2]);
 
 
     }
-}
+
+
+    }
+
