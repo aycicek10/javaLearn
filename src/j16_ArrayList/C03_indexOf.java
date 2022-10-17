@@ -11,7 +11,7 @@ public class C03_indexOf {
         ArrayList<String> listülke = new ArrayList<>(List.of("almanya", "amerigonya", "ingiltere", "isvec"));
         ArrayList<String> listsehir = new ArrayList<>(List.of("münih", "losangeles", "londra", "stockholm"));
 
-        System.out.println("listsehir.indexOf(\"londra\") = " + listsehir.indexOf("londra"));
+        System.out.println("listsehir.indexOf(\"londra\") = " + listsehir.indexOf("londra"));//2
         System.out.println("listsehir.indexOf(\"londra\") = " + listsehir.indexOf("angara"));// liste olmayan eleman indexi -1 return eder
 
         listülke.add("amerigonya");
