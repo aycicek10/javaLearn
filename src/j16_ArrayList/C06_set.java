@@ -16,5 +16,7 @@ public class C06_set {
 
         // listsehir.set(1,"bursa",2,"izmir"); -- list te coklu set metodu calısmaz cte hatası verir
 
+
+
     }
 }
