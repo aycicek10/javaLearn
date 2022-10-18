@@ -1,5 +1,9 @@
 package j16_ArrayList.Tasks;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Task01_Market {
     /* TASK :
      * Bir bakkalın 7 günlük tüm kazançlarını günlük olarak gösteren bir program yazınız.
@@ -17,5 +21,32 @@ public class Task01_Market {
      * 6. Adım : getOrtalamaninAltindaKazancGünleri() adlı method oluşturun.
      * 			 for döngüsü ile tüm günleri ortalama kazanç ile karşılaştır
      * 			 ortalama kazançtan aşağıysa o günleri return yap.
+
      * */
+
+
+    static ArrayList<String>gunler=new ArrayList<>(Arrays.asList("pazartesi","salı","persembe","cuma","cumartesi","pazar"));
+    static ArrayList<Double>gunlukKazanclar=new ArrayList<>();
+    static Scanner sc=new Scanner(System.in);
+static double haftaCirosu=0;
+    public static void main(String[] args) {
+        int gun=0;
+        while (gun<7){
+            System.out.println("agam hele "+ gunler.get(gun) + " gunun hasılatını gir: ");
+
+           double gunKazancı=sc.nextDouble();
+
+            gunlukKazanclar.add(gunKazancı);
+
+            haftaCirosu+= gunKazancı;
+
+            gun++;
+
+        }
+
+
+
+
+
+    }
 }

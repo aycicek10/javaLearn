@@ -26,7 +26,7 @@ public class Task10 {
         String result = "";
 
         for (int i = 1; i < arrayString.length(); i++){
-            if (i==(arrayString.charAt(i))){,
+            if (i==(arrayString.charAt(i))){
                 arrayString.replaceAll("i","");
 
 
