@@ -33,7 +33,7 @@ public class Task02 {
 
         for (int i = 0; i < notList.size(); i++) {
 
-            if (ortüstü > (toplam / notsayısı)) {
+            if (ortüstü > (toplam / notList.size())) {
 
                 ortüstü+=i;
 

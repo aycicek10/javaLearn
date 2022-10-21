@@ -17,8 +17,14 @@ public class Task14 {
         String str = "ade1r4d3";
      String s[]=str.split("");
         System.out.println("Arrays.toString(s) = " + Arrays.toString(s));
+        int toplam=0;
 
-        //String str=Integer.parseInt(str);
+        for (int i = 0; i <s.length ; i++) {
+            if (Character.isDigit(str.charAt(i))){
+                toplam+=Integer.parseInt(s[i]);
+            }
+        }
+        System.out.println(toplam);
 
 
 

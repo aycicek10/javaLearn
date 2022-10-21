@@ -27,17 +27,21 @@ public class _12_Array_no14 {
 
 
 
-        int[] arr5={2,3,4};
-       boolean flag=true;
-        for (int i = 0; i <arr5.length ; i++) {
-            for (int j = 0; j <arr5.length ; j++) {
-                if(arr5[i]==2&&arr5[j]==4||arr5[i]==4&&arr5[j]==2)
-                    flag=false;
-            }
+        int[] arr5={1,2,3,4};
+        System.out.println(Arrays.toString(arr5));
+
+
+
+
+            if (arr5.toString().equals(4) && arr5.toString().equals(1)) {
+
+                System.out.println(false);
+
+            }else System.out.println(true);
         }
-        System.out.println(flag);
+        }
 
 
 
-    }
-}
+
+
