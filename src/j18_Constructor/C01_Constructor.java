@@ -1,6 +1,6 @@
 package j18_Constructor;
 
-public class C01_Constructor {
+public class  C01_Constructor {
       /*
         1- Constructor ismi Class name ile aynı olmalı.Buyuk harf ile baslamalı
         2- constructor create edildiğinde nameden sonra (){} mutlaka kullanılmalı

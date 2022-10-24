@@ -2,7 +2,8 @@ package j15_Arrays.odev;
 
 import java.util.Arrays;
 
-public class _01_Create_array {
+public class
+_01_Create_array {
 
     public static void main(String[] args) {
         /*
