@@ -29,7 +29,8 @@ public class C01_Varargs {
         toplaVarargs(sayı1,sayı3);
         toplaVarargs(sayı2,sayı3);
 
-
+enUzunkelime("aga","fatih","zeyyid");
+enUzunkelime("sümeyra","cebrail","ali");
 
 
     }
@@ -40,5 +41,19 @@ public class C01_Varargs {
             toplam+=w;
         }
         System.out.println("sayılar toplamı : " + (toplam));
+
+        // task --verilen String lerin en fazla karaktere sahip olanı print eden method create ediniz -- parametre sayısı belli değil
+
     }
+
+    public static void enUzunkelime(String...str){
+        String enuzun="";
+        for (String w:str){
+            if(w.length()>enuzun.length()){
+                enuzun=w;
+            }
+        }
+        System.out.println("en uzun kelime : " + enuzun);
+    }
+
 }
