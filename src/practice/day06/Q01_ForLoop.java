@@ -27,6 +27,7 @@ int toplam=0;
 
         }System.out.println("toplam = " + toplam);
 
+
     }
 
 }
