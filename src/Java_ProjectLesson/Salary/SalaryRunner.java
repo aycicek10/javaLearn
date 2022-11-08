@@ -1,4 +1,4 @@
-package Java_ProjectLesson;
+package Java_ProjectLesson.Salary;
 
 public class SalaryRunner {
     public static void main(String[] args) {

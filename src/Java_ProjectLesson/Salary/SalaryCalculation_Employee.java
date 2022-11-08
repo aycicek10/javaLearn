@@ -1,4 +1,4 @@
-package Java_ProjectLesson;
+package Java_ProjectLesson.Salary;
 
 public class SalaryCalculation_Employee {
    /* Java da fabrika çalışanlarını temsil eden bir class oluşturunuz.
