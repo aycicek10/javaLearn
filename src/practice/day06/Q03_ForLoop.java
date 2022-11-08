@@ -1,7 +1,7 @@
 
 package practice.day06;
 
-public class Q03_ForLoop {
+public class  Q03_ForLoop {
     //Convert "Java" to "J*a*v*a*"
 
 /* ForLoop
