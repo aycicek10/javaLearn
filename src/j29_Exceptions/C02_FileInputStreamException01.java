@@ -31,6 +31,11 @@ Class'inin parent class Hz.Adem
         FileInputStream fis = new FileInputStream("C:\\Users\\Ahmet\\IdeaProjects\\javaLearn\\src\\j29_Exceptions\\ebikGabık");
         // ilgili dosyaya ulaşmak icin fis obj tanımlandı parametre olarak ulaşılacak dosya yolu(path) girildi
         //FileNotFoundException-> adres yanlışşsa controlu
+        /*
+        Eger bir method da checked(cte riski olan excp) exception varsa method signature (method nameden sonraki bölüm) hata uyarısı altı kırmızı cizgi verir
+        komutun derlemesine izin vermez ve kod üzerine gelindiğinde Add... exception handle etme tavsiye eder otomatik throws excp eklenir.
+        bu sekilde methodu call eden komutlar try-catch alınması garanti edilmiş olur
+         */
 
         int k;
         while ((k = fis.read()) != -1) {//IOException -- evde yoksa kontrolu
