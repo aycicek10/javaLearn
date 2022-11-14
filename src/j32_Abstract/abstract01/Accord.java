@@ -1,4 +1,4 @@
-package j32_Abstract.abstract02;
+package j32_Abstract.abstract01;
 
 public class Accord extends Honda {
     @Override

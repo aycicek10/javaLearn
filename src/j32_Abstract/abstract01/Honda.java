@@ -1,4 +1,4 @@
-package j32_Abstract.abstract02;
+package j32_Abstract.abstract01;
 
 public abstract class  Honda {// parent abstract class
     public abstract void motor();
