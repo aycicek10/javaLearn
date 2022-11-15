@@ -40,6 +40,7 @@ Urun urun = new Urun();
         switch (urun.getProductNum()){
             case 0:
                 System.out.println("yine bekleriz");
+                System.exit(0);
                 break;
             case 1:
                 urun.setPrice(urun.getKraker());
@@ -91,4 +92,28 @@ Urun urun = new Urun();
 
         return accountBalance;
     }
+
+    public  void purchase(double price, double accountBalance, Urun urun) {
+
+        while (accountBalance>=price){
+accountBalance=accountBalance-price;
+            System.out.println("kalan bakiye : " + accountBalance);
+            Scanner sc=new Scanner(System.in);
+            System.out.println("baska bir ürün almak istiyor musunuz? (Y/N)");
+            char confirm = sc.next().toLowerCase().charAt(0);
+
+            if (confirm=='n'){
+                System.out.println("yine bekleriz");
+                break;
+            }else {
+                urun.setPrice(select(urun));
+accountBalance = balance(urun.getPrice(), accountBalance,urun);
+            }
+
+        }
+    }
+
+
+
+
 }

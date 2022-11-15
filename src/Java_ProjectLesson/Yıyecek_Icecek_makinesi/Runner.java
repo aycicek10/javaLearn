@@ -10,12 +10,13 @@ public class Runner {
 
         Options opt=new Options();
         //opt.select(urun);
-
         urun.setPrice(opt.select(urun));
 
         accountBalance=opt.balance(urun.getPrice(),accountBalance,urun);
 
         System.out.println("accountBalance = " + accountBalance);
+
+        opt.purchase(urun.getPrice(),accountBalance,urun);
 
     }
 }
