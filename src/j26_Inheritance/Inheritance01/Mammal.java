@@ -1,14 +1,14 @@
 package j26_Inheritance.Inheritance01;
 
-public class Mammal extends Hayvancık {// hayvancık parentin child classı dır -- baba
-    public Mammal() {//p siz cons
-
-        System.out.println("agam hayvancık** p'siz cons..");
+public class Mammal extends Hayvancık {//Hayvancık parent class'ın child class-baba
+    public Mammal() {//p'siz cons
+        System.out.println("Agam ahan da Mammal p'siz cons...");
     }
     public void sutBeslenme(){
-        System.out.println("bebeleri süt ile beslenir");
+
+        System.out.println("bebeleri SUT ile beslenir...");
     }
     public void dogum(){
-        System.out.println("bebesini dogurup analık eder");
+        System.out.println("nur topu gibi yavrısı olur :) ");
     }
 }
