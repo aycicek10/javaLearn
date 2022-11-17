@@ -1,6 +1,6 @@
 package j26_Inheritance.Task02;
 
-public class SubClass extends SuperClass {
+public class  SubClass extends SuperClass {
     public static void main(String[] args) {
         SubClass obj = new SubClass();
         obj.myMetho();
