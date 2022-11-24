@@ -2,7 +2,7 @@ package Java_depo.pr2;
 
 import java.util.*;
 
-public class Method implements advancedJavaPractice.JavaProjects.P11_depoYonetimi.depoYonetimi06.GirisCikisInterface {
+public class Method implements GirisCikisInterface {
     public static final String W = "\u001B[37m";
     public static final String R = "\u001B[31m";
     public static final String G = "\u001B[32m";
@@ -95,8 +95,7 @@ public class Method implements advancedJavaPractice.JavaProjects.P11_depoYonetim
                 "\n----------------------------------------------------------------------");
         for (Map.Entry<Integer, advancedJavaPractice.JavaProjects.P11_depoYonetimi.depoYonetimi06.UrunTanimlama> each: urunlerSeti) {
             Integer urunlerKey= each.getKey();
-            System.out.printf( "%d    %-8s       %-14s %3d          %-14s %s"
-                    ,urunlerKey,each.getValue().getUrunIsmi(), each.getValue().getUretici(),each.getValue().getMiktar(),each.getValue().getBirim(), each.getValue().getRaf());
+            System.out.printf( "%d    %-8s       %-14s %3d          %-14s %s" ,urunlerKey,each.getValue().getUrunIsmi(), each.getValue().getUretici(),each.getValue().getMiktar(),each.getValue().getBirim(), each.getValue().getRaf());
             System.out.println("");
         }
 
