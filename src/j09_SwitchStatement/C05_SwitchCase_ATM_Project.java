@@ -14,53 +14,43 @@ public class C05_SwitchCase_ATM_Project {
         int seçim=sc.nextInt();
         int bakiye=1000;
 
-        switch (seçim) {
-            case 1:
-                System.out.println("agam bakiye: " + bakiye);
+    switch (seçim) {
+        case 1:
+            System.out.println("agam bakiye: " + bakiye);
 
 
-                break;
-            case 2:
-                System.out.println("ne kadar yatıracaksın");
-                int yatıralanmiktar = sc.nextInt();
-                bakiye += yatıralanmiktar;
-                System.out.println("güncel bakiye :" + bakiye);
+            break;
+        case 2:
+            System.out.println("ne kadar yatıracaksın");
+            int yatıralanmiktar = sc.nextInt();
+            bakiye += yatıralanmiktar;
+            System.out.println("güncel bakiye :" + bakiye);
 
 
-                break;
+            break;
 
-            case 3:
-                System.out.println("ne kadar çekeceksin");
-                int çekilentutar = sc.nextInt();
-                if (çekilentutar > bakiye) {
-                    System.out.println("hesapta para yok");
-                    System.out.println("ahanda bakiye");
+        case 3:
+            System.out.println("ne kadar çekeceksin");
+            int çekilentutar = sc.nextInt();
+            if (çekilentutar > bakiye) {
+                System.out.println("hesapta para yok");
+                System.out.println("ahanda bakiye");
 
-                } else
-                    bakiye -= çekilentutar;
-                System.out.println("güncel bakiye :" + bakiye);
-
-
+            } else
+                bakiye -= çekilentutar;
+            System.out.println("güncel bakiye :" + bakiye);
 
 
+            break;
+        case 4:
+            System.out.println("çıkış yapıldı");
 
 
+            break;
 
-
-                break;
-            case 4:
-                System.out.println("çıkış yapıldı");
-
-
-
-
-
-
-                break;
-
-            default:
-                System.out.println("hatalı giriş");
-        }
+        default:
+            System.out.println("hatalı giriş");
+    }
 
 
 

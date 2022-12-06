@@ -20,16 +20,21 @@ public class Task02 {
          *
          */
 
-        Scanner sc=new Scanner(System.in);
-        System.out.println("kilonuzu giriniz:");
-        int kilo= sc.nextInt();
-
-        System.out.println("boyunuzu giriniz:");
-        double boy= sc.nextDouble();
-
-        System.out.println("vke:" +  kilo/ (boy*boy));
 
 
 
-    }
-}
+
+                Scanner sc = new Scanner(System.in);
+                System.out.println("kilonuzu giriniz:");
+                int kilo = sc.nextInt();
+                System.out.println("boyunuzu giriniz:");
+                double boy = sc.nextDouble();
+
+                System.out.println("vke:" + kilo / (boy * boy));
+
+
+
+            }
+        }
+
+

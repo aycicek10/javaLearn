@@ -20,7 +20,7 @@ public class Task08 {
         System.out.println("final1");
         int final1= sc.nextInt();
 
-        System.out.println("geçme notu: " + (((vize1 + vize2) / 2) * 0.3) + (final1 * 0.7));
+        System.out.println("geçme notu: " + ((((vize1 + vize2) / 2) * 0.3) + (final1 * 0.7)));
 
 
 

@@ -16,13 +16,13 @@ public class Task06 {
         
         Scanner sc=new Scanner(System.in);
         System.out.println("x");
-        int x= sc.nextInt();
+        double x= sc.nextInt();
         System.out.println("y");
-        int y= sc.nextInt();
+        double y= sc.nextInt();
 
 
 
-        System.out.println("hipotenüs= " + ((x*x) + (y*y)) );
+        System.out.println("hipotenüs= " +Math.sqrt ((x*x) + (y*y)) );
         
         
         

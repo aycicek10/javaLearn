@@ -19,17 +19,6 @@ Scanner sc=new Scanner(System.in);
         polindrome(str);
 
 
-
-
-
-
-
-
-
-
-
-
-
     }// main sonu
 
     private static void polindrome(String str) {

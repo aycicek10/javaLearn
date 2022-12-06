@@ -2,7 +2,6 @@ package j12_Loops.L01_ForLoop.Task;
 
 public class Task06_Nested {
     public static void main(String[] args) {
-
         // 1 x 1 = 1
 // 1 x 2 = 2
 // 1 x 3 = 3

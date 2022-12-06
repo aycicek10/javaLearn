@@ -24,7 +24,7 @@ bilet gidis donus alinirrsa 20% indirim uygulayan bi app create ediniz */
         double fiyatB = 500 * 0.10;//a dan b ye ucus fiyatı
         double fiyatC = 700 * 0.10;//a dan c ye ucus fiyatı
         double fiyatD = 900 * 0.10;//a dan d ye ucus fiyatı
-        if (rota.equals("B") || rota.equals("C") || rota.equals("B")) {// rota kontrolü yapıldı
+        if (rota.equals("B") || rota.equals("C") || rota.equals("D")) {// rota kontrolü yapıldı
             if (yas > 65) {
                 if (rota.equals("B")) {
                     if (ucusYonu == 1) {//tek yon ucus kontrol
@@ -155,4 +155,4 @@ bilet gidis donus alinirrsa 20% indirim uygulayan bi app create ediniz */
         }
 
 
-    }// *** main sonu **
+    }

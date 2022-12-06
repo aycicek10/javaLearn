@@ -15,15 +15,6 @@ public class Task03_Factoriyel {
         fac(sayı);// int parametreli method call
 
 
-
-
-
-
-
-
-
-
-
     }// main sonu ***
 
     private static void fac(int sayı) {
@@ -32,9 +23,6 @@ public class Task03_Factoriyel {
 
         for (int i = 1; i <=sayı; i++) {
             fact*=i;
-
-
-
 
         }
 

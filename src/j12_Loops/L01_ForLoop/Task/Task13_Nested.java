@@ -20,8 +20,8 @@ public class Task13_Nested {
                 System.out.print((char) (harf + i) + " ");
             }
 
-
+            System.out.println();
         }
-        System.out.println();
+
     }
 }

@@ -17,25 +17,18 @@ public class Task01 {
 		 */
 
         Scanner sc=new Scanner(System.in);
-        System.out.println("mid-term grade:");
-        int midtermgrade= sc.nextInt();
+        System.out.println("vize giriniz");
+        int vize = sc.nextInt();
 
-        
-        Scanner input= new Scanner(System.in);
-        System.out.println("final grade:");
-        int finalgrade= sc.nextInt();
+        System.out.println("final giriniz");
+        int finaln = sc.nextInt();
 
+        System.out.println("proje giriniz");
+        int proje = sc.nextInt();
 
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("project");
-        int projectgrade= sc.nextInt();
+       double notOrt= ((vize*0.3)+(finaln*0.5)+(proje*0.2));
 
-
-        Scanner output=new Scanner(System.in);
-        System.out.println("not ortalamanız:");
-        double notortalaması= sc.nextDouble();
-        System.out.println("not ortalaması = " + 78*0.4 + 66*0.5 + 90*0.2);
-
+        System.out.println("notOrt = " + notOrt);
 
     }
 }

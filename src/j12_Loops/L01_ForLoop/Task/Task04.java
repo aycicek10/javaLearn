@@ -15,8 +15,6 @@ public class Task04 {
         int sayı2=sc.nextInt();
         if (sayı1<sayı2){
 
-
-
         for (int i = sayı1; i <=sayı2 ; i++) {
             if(i%2==0){
                 System.out.println(i+" ");
@@ -25,10 +23,6 @@ public class Task04 {
         }
 
     }else System.out.println("hatalı giriş");
-
-
-
-
 
 
     }// *** main sonu ***

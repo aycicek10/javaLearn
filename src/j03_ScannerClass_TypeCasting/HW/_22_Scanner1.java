@@ -16,8 +16,5 @@ public class _22_Scanner1 {
 
 
 
-
-
-
     }
 }

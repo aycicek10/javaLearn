@@ -1,4 +1,4 @@
-package j12_Lopps.L01_ForLoop.Tasks;
+package j12_Loops.HW;
 
 import java.util.Scanner;
 
@@ -15,10 +15,10 @@ int rakam=0;
 		for (int i = 0; i <str.length() ; i++) {
 
 			if (str.charAt(i)>='0' && str.charAt(i)<='9'){
-rakam++;
+             rakam++;
 
-				}System.out.println("Girilen cümlede : "+rakam+" adet rakam vardır. ");
-			}
+				}
+			}System.out.println("Girilen cümlede : "+rakam+" adet rakam vardır. ");
 		}
 
 

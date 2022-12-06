@@ -15,8 +15,9 @@ public class Task05 {
 		int x= sc.nextInt();
 		System.out.println("y");
 		int y=sc.nextInt();
-		System.out.println("x+y: " );
-		
+		System.out.println("x+y: "+ (x+y) );
+		System.out.println("x-y: "+ (x-y) );
+
 
 
 	}

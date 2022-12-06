@@ -16,7 +16,7 @@ public class Task09 {
         System.out.println("c");
         int c= sc.nextInt();
 
-        System.out.println((a*a-b*b ) / (3 * c));
+        System.out.println((a*a-b*b ) / (3.3 * c));
 
     /*  Problem Tanımı
         Kullanıcıdan a,b ve c sayılarını okuyarak aşağıdaki işlemi yapan kodu yazınız
